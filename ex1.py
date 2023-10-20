@@ -18,10 +18,8 @@ print(color)
 number = input("what is your favorite number")
 print(number)
 # 5. Print out the information in a sentence
-print(name)
-print(age)
-print(color)
-print(number)
+print(f"My name is {name} and I am {age} years old. my favorite number is {number} and your color is{color}")
+
 # 6. Multiply the user's favorite number by 10 and print out the result
 operation = float(number)*10
 print(operation)
